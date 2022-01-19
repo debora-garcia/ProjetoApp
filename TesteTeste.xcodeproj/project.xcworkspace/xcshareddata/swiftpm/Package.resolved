@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Library_D",
+        "repositoryURL": "https://github.com/debora-garcia/Library.git",
+        "state": {
+          "branch": null,
+          "revision": "2f31a1083f23bf120acbcae97a0e1207071e4648",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
