@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		61233EEF2798A305003ED243 /* Library_D in Frameworks */ = {isa = PBXBuildFile; productRef = 61233EEE2798A305003ED243 /* Library_D */; };
+		6161B62427A9BBDC00C26AC0 /* Library_D in Frameworks */ = {isa = PBXBuildFile; productRef = 6161B62327A9BBDC00C26AC0 /* Library_D */; };
 		616C11E82796EF6000539FBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616C11E72796EF6000539FBE /* AppDelegate.swift */; };
 		616C11EA2796EF6000539FBE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616C11E92796EF6000539FBE /* SceneDelegate.swift */; };
 		616C11EC2796EF6000539FBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616C11EB2796EF6000539FBE /* ViewController.swift */; };
@@ -57,7 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61233EEF2798A305003ED243 /* Library_D in Frameworks */,
+				6161B62427A9BBDC00C26AC0 /* Library_D in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,7 +146,7 @@
 			);
 			name = TesteTeste;
 			packageProductDependencies = (
-				61233EEE2798A305003ED243 /* Library_D */,
+				6161B62327A9BBDC00C26AC0 /* Library_D */,
 			);
 			productName = TesteTeste;
 			productReference = 616C11E42796EF6000539FBE /* TesteTeste.app */;
@@ -195,6 +195,9 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
@@ -221,7 +224,7 @@
 			);
 			mainGroup = 616C11DB2796EF6000539FBE;
 			packageReferences = (
-				61233EED2798A305003ED243 /* XCRemoteSwiftPackageReference "Library" */,
+				6161B62227A9BBDC00C26AC0 /* XCRemoteSwiftPackageReference "Library" */,
 			);
 			productRefGroup = 616C11E52796EF6000539FBE /* Products */;
 			projectDirPath = "";
@@ -608,20 +611,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		61233EED2798A305003ED243 /* XCRemoteSwiftPackageReference "Library" */ = {
+		6161B62227A9BBDC00C26AC0 /* XCRemoteSwiftPackageReference "Library" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/debora-garcia/Library.git";
 			requirement = {
 				kind = revision;
-				revision = 2f31a1083f23bf120acbcae97a0e1207071e4648;
+				revision = 16dd50746398414c3f84e80800200a11ad15b3b0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		61233EEE2798A305003ED243 /* Library_D */ = {
+		6161B62327A9BBDC00C26AC0 /* Library_D */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 61233EED2798A305003ED243 /* XCRemoteSwiftPackageReference "Library" */;
+			package = 6161B62227A9BBDC00C26AC0 /* XCRemoteSwiftPackageReference "Library" */;
 			productName = Library_D;
 		};
 /* End XCSwiftPackageProductDependency section */
